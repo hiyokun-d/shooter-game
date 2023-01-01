@@ -10,7 +10,7 @@ let width = innerWidth;
 let height = innerHeight;
 let score = 0;
 
-let gameOver = false;
+let gameOver = true;
 
 addEventListener("resize", () => {
 	width = innerWidth;
